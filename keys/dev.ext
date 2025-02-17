@@ -1,0 +1,28 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = apicentral.dev
+DNS.2 = *.apicentral.dev
+DNS.3 = docs
+DNS.4 = *.docs
+DNS.5 = exemplo.dev
+DNS.6 = *.exemplo.dev
+DNS.7 = far.dev
+DNS.8 = *.far.dev
+DNS.9 = fibra.dev
+DNS.10 = *.fibra.dev
+DNS.11 = ggestao.dev
+DNS.12 = *.ggestao.dev
+DNS.13 = ggestao.dev-bagunca
+DNS.14 = *.ggestao.dev-bagunca
+DNS.15 = leo
+DNS.16 = *.leo
+DNS.17 = notifica.dev
+DNS.18 = *.notifica.dev
+DNS.19 = OLD2
+DNS.20 = *.OLD2
+DNS.21 = teste
+DNS.22 = *.teste
